@@ -38,12 +38,16 @@ int main()
   //   }
 
   // eg 4.
-  int i, j, n=6;
-  for (i=n; i>=1; i--)
+  int i, j, n=6, k;
+  for (i=1; i<=n; i++)
     {
-      for (j=1; j<=i; j++)
+      for (k=1; k<=i; k++)
         {
-          printf("*");
+          printf(" ");
+        }
+      for (j=i; j<=n; j++)
+        {
+          printf("#");
         }
       printf("\n");
     }
