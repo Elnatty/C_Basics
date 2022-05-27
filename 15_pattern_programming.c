@@ -38,18 +38,29 @@ int main()
   //   }
 
   // eg 4.
-  int i, j, n=6, k;
+  // int i, j, n=6, k;
+  // for (i=1; i<=n; i++)
+  //   {
+  //     for (k=1; k<=i; k++)
+  //       {
+  //         printf(" ");
+  //       }
+  //     for (j=i; j<=n; j++)
+  //       {
+  //         printf("#");
+  //       }
+  //     printf("\n");
+  //   }
+
+  // eg 5.
+  int i, j, n=5;
   for (i=1; i<=n; i++)
     {
-      for (k=1; k<=i; k++)
-        {
-          printf(" ");
-        }
-      for (j=i; j<=n; j++)
-        {
-          printf("#");
-        }
-      printf("\n");
+    for (j=1; j<=i; j++)
+      {
+        printf("%d", i);
+      }
+    printf("\n");
     }
 
 }
