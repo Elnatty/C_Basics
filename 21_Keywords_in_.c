@@ -93,6 +93,7 @@ int main()
   // }
 
 
+  // perform operation based on user input.
   // int a,b;
   // char op;
   // printf("enter operation >> ");
