@@ -40,6 +40,7 @@ int main()
 
   // CASE CONTROL STRUCTURE... (Switch)
   // executes the case block if condition is satisfied, or the default block if otherwise.
+  // cant be used with variables only digits... use if-else for variables instead.
   // int i=2;
   // switch (i){
   //   case 1:
@@ -53,5 +54,19 @@ int main()
   //     printf("The value of i is %d", i);
   //     break;
   // }
+
+
+  // Example 1: Switch use cases:
+  int n;
+  printf("Enter an integer: ");
+  scanf("%1d", &n);   // %1d implies: taking only one integer.. if user enters 2 or more digits, only the 1st digit is stored.
+  switch(n){
+    case 1: printf("One"); break;
+    case 2: printf("Two"); break;
+    case 3: printf("Three"); break;
+    case 4: printf("Four"); break;
+    case 5: printf("Five"); break;
+    // default: printf("invalid entry...");
+  }
 
 }
