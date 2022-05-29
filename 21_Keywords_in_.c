@@ -57,16 +57,40 @@ int main()
 
 
   // Example 1: Switch use cases:
-  int n;
-  printf("Enter an integer: ");
-  scanf("%1d", &n);   // %1d implies: taking only one integer.. if user enters 2 or more digits, only the 1st digit is stored.
-  switch(n){
-    case 1: printf("One"); break;
-    case 2: printf("Two"); break;
-    case 3: printf("Three"); break;
-    case 4: printf("Four"); break;
-    case 5: printf("Five"); break;
-    // default: printf("invalid entry...");
-  }
+  // int n;
+  // printf("Enter an integer: ");
+  // scanf("%1d", &n);   // %1d implies: taking only one integer.. if user enters 2 or more digits, only the 1st digit is stored.
+  // switch(n){
+  //   case 1: printf("One"); break;
+  //   case 2: printf("Two"); break;
+  //   case 3: printf("Three"); break;
+  //   case 4: printf("Four"); break;
+  //   case 5: printf("Five"); break;
+  //   // default: printf("invalid entry...");
+  // }
+
+
+  // print numbers in words in reverse order.
+  // int n, rem;
+  // printf("enter number >> ");
+  // scanf("%d", &n);
+  // while (n>0){
+  //   rem = n % 10;
+  //   switch (rem){
+  //     case 0: printf("Zero"); break;
+  //     case 1: printf("One"); break;
+  //     case 2: printf("Two"); break;
+  //     case 3: printf("Three"); break;
+  //     case 4: printf("Four"); break;
+  //     case 5: printf("Five"); break;
+  //     case 6: printf("Six"); break;
+  //     case 7: printf("Seven"); break;
+  //     case 8: printf("Eight"); break;
+  //     case 9: printf("Nine"); break;
+  //     case 10: printf("Ten"); break;
+  //   }
+  //   n = n/10;
+  // }
+
 
 }
