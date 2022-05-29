@@ -36,4 +36,22 @@ int main()
   // }
   // printf("This loop has ended....\n");
 
+  
+
+  // CASE CONTROL STRUCTURE... (Switch)
+  // executes the case block if condition is satisfied, or the default block if otherwise.
+  // int i=2;
+  // switch (i){
+  //   case 1:
+  //     printf("The value of i is %d", i);
+  //     break;
+  //   case 2:
+  //     printf("The value of i is %d", i);
+  //     break;
+    
+  //   default:
+  //     printf("The value of i is %d", i);
+  //     break;
+  // }
+
 }
