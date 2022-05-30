@@ -2,39 +2,42 @@
 #include <stdio.h>
 
 //function to calculate factorial
-fact (int x){
-  int i, fact=1;
-  for (i=1; i<=x; i++){
-    fact = fact * i;
+int factorial (int x){
+  int i, fac, tem;
+  tem = x;    // saving the value of x into tem
+  for (i=(x-1); i > 0; i--){
+    x = x * i;
   }
-  printf("Factorial is %d", fact);
+  printf("The factorial of %d is %d", tem, x);
 }
 
 // function to calculate prime numbers.
-is_prime (int x){
-  int i;
-  for (i=2; i<=x-1; i++){
-    if (x % i == 0){
-      printf("\n%d is Not a prime number\n", x);
-      return 0;
-    }
-    printf("\n%d Is a Prime number\n", x);
-    return 0;
-  }
-}
+// is_prime (int x){
+//   int i;
+//   for (i=2; i<=x-1; i++){
+//     if (x % i == 0){
+//       printf("\n%d is Not a prime number\n", x);
+//       return 0;
+//     }
+//     printf("\n%d Is a Prime number\n", x);
+//     return 0;
+//   }
+// }
 
-// square and cube of a number.
-sqr_ (int x){
-  return (x * x);
-}
-cube_ (int x){
-  return (x * x * x);
-}
+// // square and cube of a number.
+// sqr_ (int x){
+//   return (x * x);
+// }
+// cube_ (int x){
+//   return (x * x * x);
+// }
+
+
 int main()
 {
   // calling the functions.
   int a=4;
-  // fact(a);
+  factorial(a);
   // is_prime(a);
   // printf("sqr of %d is %d\ncube of %d is %d", a, sqr_(a), a, cube_(a));
 }
