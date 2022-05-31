@@ -50,17 +50,34 @@ int main()
 
 
   // addition of array elements.
-  int n, i, a[20], sum;
-  printf("\nenter number of array >> ");
-  scanf("%d", &n);
+  // int n, i, a[20], sum;
+  // printf("\nenter number of array >> ");
+  // scanf("%d", &n);
 
-  for (i=0; i<n; i++){
-    printf("enter your number %d element >> ", i+1);
-    scanf("%d", &a[i]);
-  }
-  for (i=0; i<n; i++){
-    sum = sum + a[i];
-  }
-  printf("sum of entered elements = %d", sum);
+  // for (i=0; i<n; i++){
+  //   printf("enter your number %d element >> ", i+1);
+  //   scanf("%d", &a[i]);
+  // }
+  // for (i=0; i<n; i++){
+  //   sum = sum + a[i];
+  // }
+  // printf("sum of entered elements = %d", sum);
+
+
+
+  // getting maximum and minimum element from an array.
+  // int min, max, i;
+  // int scores[10] = {21, 45, 67, 39, 20, 34, 22, 11, 56, 54};
+  // // checking for the biggest..
+  // min = max = scores[0];
+  // for (i=0; i<10; i++){
+  //   if (scores[i] > max){
+  //     max = scores[i];
+  //   }
+  //   else if (scores[i] < min){
+  //     min = scores[i];
+  //   }
+  // }
+  // printf("max = %d\nmin = %d", max, min);
 
 }
