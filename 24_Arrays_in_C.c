@@ -38,8 +38,6 @@ int main()
   // printf("\nenter number of array >> ");
   // scanf("%d", &n);
 
-  // printf("Enter array elements:\n");
-
   // for (i=0; i<n; i++){
   //   printf("enter your number %d element >> ", i+1);
   //   scanf("%d", &a[i]);
@@ -49,5 +47,20 @@ int main()
   //   //int sum_of_2nd_3rd_values = a[1] + a
   // }
   // printf("sum of 2nd %d and 3rd %d values is %d", a[1], a[2], (a[1] + a[2]));
+
+
+  // addition of array elements.
+  int n, i, a[20], sum;
+  printf("\nenter number of array >> ");
+  scanf("%d", &n);
+
+  for (i=0; i<n; i++){
+    printf("enter your number %d element >> ", i+1);
+    scanf("%d", &a[i]);
+  }
+  for (i=0; i<n; i++){
+    sum = sum + a[i];
+  }
+  printf("sum of entered elements = %d", sum);
 
 }
