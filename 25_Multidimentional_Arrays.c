@@ -50,6 +50,49 @@ int main()
   //   }
 
 
-  // 
+
+
+
+  // add two M x N array matrix.
+  // int i, j, m, n, a[5][5], b[5][5], c[5][5];
+  // printf("\nenter order of matrix: ");
+  // scanf("%d%d", &m, &n);
+
+  // printf("\nyou entered %d by %d matrix\n", m, n); 
+
+  // for (i=0; i<m; i++){
+  //   // collecting user inputs for matrix a.
+  //   for (j=0; j<n; j++){
+  //     printf("Matrix A\n");
+  //     printf("enter figures %dx%d >> ", i,j);
+  //     scanf("%d", &a[i][j]);
+  //   }
+  // }
+
+  // for (i=0; i<m; i++){
+  //   // collecting user inputs for matrix b.
+  //   printf("Matrix B\n");
+  //   for (j=0; j<n; j++){
+  //     printf("enter figures %dx%d >> ", i,j);
+  //     scanf("%d", &b[i][j]);
+  //   }
+  // }
+
+  // // sum of matrix a and b.
+  // for (i=0; i<m; i++){
+  //   for (j=0; j<n; j++){
+  //     c[i][j] = a[i][j] + b[i][j];
+  //   }
+  // }
+  // printf("\nResult Matrix C...\n");
+
+  // for (i=0; i<m; i++){
+  //   for (j=0; j<n; j++){
+  //     printf("%dx%d=%d\n", i, j, c[i][j]);
+  //   }
+  //   printf("\n");
+  // }
+
+
 
 }
