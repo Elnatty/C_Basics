@@ -28,8 +28,9 @@ int main()
   // z = add_2(&x, &y);
   // printf("%d", z);
 
-  int x=10, y=20, c;
-  add_3(&x, &y, &c);
+  int x=10, y=20, z;
+  add_3(&x, &y, &z);
+  printf("%d + %d = %d", x,y,z);
 
 
 }
