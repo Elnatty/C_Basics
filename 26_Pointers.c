@@ -11,6 +11,7 @@ int main()
   // using pointers
   int a = 10;
   int *val = &a;
+  printf("address of a : %p\n"); // address of a
   printf("pointer of a : %d\n", *(&a)); //or
   printf("pointer of a : %d\n", *&a); //or
   printf("pointer of a : %d\n", *val);
