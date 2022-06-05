@@ -16,7 +16,7 @@ fclose --> close a file.
 getc --> read character current cursor location.
 putc --> writes charater on current cursor location.
 fgets --> reads a line from file.
-fpts --> writes a line to file.
+fputs --> writes a string to file.
 EOF --> end of file..
 */
 int main()
